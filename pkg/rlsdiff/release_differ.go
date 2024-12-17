@@ -8,9 +8,9 @@ import (
 
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 
-	legacyRelease "github.com/werf/3p-helm/pkg/release"
+	legacyRelease "github.com/werf/3p-helm-for-werf-helm/pkg/release"
 
-	"github.com/werf/nelm/pkg/rls"
+	"github.com/werf/nelm-for-werf-helm/pkg/rls"
 )
 
 func ReleaseUpToDate(oldRel, newRel *rls.Release) (bool, error) {

@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/werf/nelm/pkg/rls"
-	"github.com/werf/nelm/pkg/rlshistor"
+	"github.com/werf/nelm-for-werf-helm/pkg/rls"
+	"github.com/werf/nelm-for-werf-helm/pkg/rlshistor"
 )
 
 var _ Operation = (*SucceedReleaseOperation)(nil)

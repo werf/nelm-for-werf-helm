@@ -9,7 +9,7 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/werf/nelm/pkg/utls"
+	"github.com/werf/nelm-for-werf-helm/pkg/utls"
 )
 
 func NewResourceID(name, namespace string, gvk schema.GroupVersionKind, opts ResourceIDOptions) *ResourceID {

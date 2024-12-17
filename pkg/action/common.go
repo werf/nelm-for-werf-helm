@@ -9,7 +9,7 @@ import (
 	"k8s.io/klog"
 	klog_v2 "k8s.io/klog/v2"
 
-	"github.com/werf/kubedog/pkg/display"
+	"github.com/werf/kubedog-for-werf-helm/pkg/display"
 	"github.com/werf/logboek"
 )
 

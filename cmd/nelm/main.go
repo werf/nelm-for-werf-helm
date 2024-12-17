@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/spf13/cobra"
-	"github.com/werf/nelm/pkg/commands"
-	"github.com/werf/nelm/pkg/log"
+	"github.com/werf/nelm-for-werf-helm/pkg/commands"
+	"github.com/werf/nelm-for-werf-helm/pkg/log"
 )
 
 func main() {

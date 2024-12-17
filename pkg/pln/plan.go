@@ -11,7 +11,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/samber/lo"
 
-	"github.com/werf/nelm/pkg/opertn"
+	"github.com/werf/nelm-for-werf-helm/pkg/opertn"
 )
 
 func NewPlan() *Plan {

@@ -9,12 +9,12 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/client-go/dynamic"
 
-	"github.com/werf/kubedog/pkg/trackers/dyntracker"
-	"github.com/werf/kubedog/pkg/trackers/dyntracker/statestore"
-	"github.com/werf/kubedog/pkg/trackers/dyntracker/util"
-	"github.com/werf/nelm/pkg/kubeclnt"
-	"github.com/werf/nelm/pkg/resrc"
-	"github.com/werf/nelm/pkg/resrcid"
+	"github.com/werf/kubedog-for-werf-helm/pkg/trackers/dyntracker"
+	"github.com/werf/kubedog-for-werf-helm/pkg/trackers/dyntracker/statestore"
+	"github.com/werf/kubedog-for-werf-helm/pkg/trackers/dyntracker/util"
+	"github.com/werf/nelm-for-werf-helm/pkg/kubeclnt"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrc"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrcid"
 )
 
 var _ Operation = (*RecreateResourceOperation)(nil)

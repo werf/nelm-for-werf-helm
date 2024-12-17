@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/werf/nelm/pkg/secret"
+	"github.com/werf/nelm-for-werf-helm/pkg/secret"
 )
 
 var WerfHomeDir string

@@ -9,9 +9,9 @@ import (
 	"github.com/sourcegraph/conc/pool"
 	"k8s.io/apimachinery/pkg/api/meta"
 
-	"github.com/werf/nelm/pkg/kubeclnt"
-	"github.com/werf/nelm/pkg/resrc"
-	"github.com/werf/nelm/pkg/resrcid"
+	"github.com/werf/nelm-for-werf-helm/pkg/kubeclnt"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrc"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrcid"
 )
 
 func BuildDeployableResourceInfos(

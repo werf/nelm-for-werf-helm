@@ -3,13 +3,12 @@ package commands
 import (
 	"context"
 	"fmt"
-	"time"
 	"github.com/werf/logboek"
+	"time"
 
 	"github.com/spf13/cobra"
-	"github.com/werf/nelm/pkg/action"
+	"github.com/werf/nelm-for-werf-helm/pkg/action"
 )
-
 
 func NewReleaseUninstallCommand() *cobra.Command {
 	var opts action.UninstallOptions

@@ -18,14 +18,14 @@ import (
 	"k8s.io/apimachinery/pkg/util/json"
 	"k8s.io/client-go/discovery"
 
-	"github.com/werf/3p-helm/pkg/release"
+	"github.com/werf/3p-helm-for-werf-helm/pkg/release"
 
-	"github.com/werf/nelm/pkg/common"
-	"github.com/werf/nelm/pkg/depnd"
-	"github.com/werf/nelm/pkg/depnddetctr"
-	"github.com/werf/nelm/pkg/utls"
+	"github.com/werf/nelm-for-werf-helm/pkg/common"
+	"github.com/werf/nelm-for-werf-helm/pkg/depnd"
+	"github.com/werf/nelm-for-werf-helm/pkg/depnddetctr"
+	"github.com/werf/nelm-for-werf-helm/pkg/utls"
 
-	"github.com/werf/kubedog/pkg/trackers/rollout/multitrack"
+	"github.com/werf/kubedog-for-werf-helm/pkg/trackers/rollout/multitrack"
 )
 
 type Type string

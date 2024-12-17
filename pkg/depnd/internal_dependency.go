@@ -1,6 +1,6 @@
 package depnd
 
-import "github.com/werf/nelm/pkg/resrcmatcher"
+import "github.com/werf/nelm-for-werf-helm/pkg/resrcmatcher"
 
 func NewInternalDependency(matchNames, matchNamespaces, matchGroups, matchVersions, matchKinds []string, opts InternalDependencyOptions) *InternalDependency {
 	var resourceState ResourceState

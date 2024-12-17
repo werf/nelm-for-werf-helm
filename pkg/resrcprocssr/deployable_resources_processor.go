@@ -12,15 +12,15 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/discovery"
 
-	"github.com/werf/nelm/pkg/common"
-	"github.com/werf/nelm/pkg/kubeclnt"
-	"github.com/werf/nelm/pkg/log"
-	"github.com/werf/nelm/pkg/resrc"
-	"github.com/werf/nelm/pkg/resrcid"
-	"github.com/werf/nelm/pkg/resrcinfo"
-	"github.com/werf/nelm/pkg/resrcpatcher"
-	"github.com/werf/nelm/pkg/resrctransfrmr"
-	"github.com/werf/nelm/pkg/utls"
+	"github.com/werf/nelm-for-werf-helm/pkg/common"
+	"github.com/werf/nelm-for-werf-helm/pkg/kubeclnt"
+	"github.com/werf/nelm-for-werf-helm/pkg/log"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrc"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrcid"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrcinfo"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrcpatcher"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrctransfrmr"
+	"github.com/werf/nelm-for-werf-helm/pkg/utls"
 )
 
 func NewDeployableResourcesProcessor(

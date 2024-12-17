@@ -8,8 +8,8 @@ import (
 	"k8s.io/apimachinery/pkg/api/meta"
 	"k8s.io/cli-runtime/pkg/resource"
 
-	"github.com/werf/3p-helm/pkg/kube"
-	"github.com/werf/3p-helm/pkg/phases/stages"
+	"github.com/werf/3p-helm-for-werf-helm/pkg/kube"
+	"github.com/werf/3p-helm-for-werf-helm/pkg/phases/stages"
 )
 
 var metadataAccessor = meta.NewAccessor()

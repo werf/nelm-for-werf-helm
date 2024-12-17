@@ -6,7 +6,7 @@ import (
 	"github.com/werf/logboek"
 
 	"github.com/spf13/cobra"
-	"github.com/werf/nelm/pkg/action"
+	"github.com/werf/nelm-for-werf-helm/pkg/action"
 )
 
 func NewChartRenderCommand() *cobra.Command {
@@ -66,4 +66,3 @@ func NewChartRenderCommand() *cobra.Command {
 
 	return cmd
 }
-

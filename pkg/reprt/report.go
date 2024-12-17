@@ -10,12 +10,12 @@ import (
 	"github.com/gookit/color"
 	"github.com/samber/lo"
 
-	"github.com/werf/3p-helm/pkg/release"
+	"github.com/werf/3p-helm-for-werf-helm/pkg/release"
 
-	"github.com/werf/nelm/pkg/log"
-	"github.com/werf/nelm/pkg/opertn"
-	"github.com/werf/nelm/pkg/rls"
-	"github.com/werf/nelm/pkg/utls"
+	"github.com/werf/nelm-for-werf-helm/pkg/log"
+	"github.com/werf/nelm-for-werf-helm/pkg/opertn"
+	"github.com/werf/nelm-for-werf-helm/pkg/rls"
+	"github.com/werf/nelm-for-werf-helm/pkg/utls"
 )
 
 func NewReport(completedOps, canceledOps, failedOps []opertn.Operation, release *rls.Release) *Report {

@@ -8,11 +8,11 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/yaml"
 
-	"github.com/werf/nelm/pkg/plnbuilder"
-	"github.com/werf/nelm/pkg/resrc"
-	"github.com/werf/nelm/pkg/resrcid"
-	"github.com/werf/nelm/pkg/resrcinfo"
-	"github.com/werf/nelm/pkg/utls"
+	"github.com/werf/nelm-for-werf-helm/pkg/plnbuilder"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrc"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrcid"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrcinfo"
+	"github.com/werf/nelm-for-werf-helm/pkg/utls"
 )
 
 const HiddenInsignificantOutput = "<hidden insignificant output>"

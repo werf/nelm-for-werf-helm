@@ -11,11 +11,11 @@ import (
 	"k8s.io/client-go/dynamic"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/werf/kubedog/pkg/trackers/dyntracker"
-	"github.com/werf/kubedog/pkg/trackers/dyntracker/logstore"
-	"github.com/werf/kubedog/pkg/trackers/dyntracker/statestore"
-	"github.com/werf/kubedog/pkg/trackers/dyntracker/util"
-	"github.com/werf/nelm/pkg/resrcid"
+	"github.com/werf/kubedog-for-werf-helm/pkg/trackers/dyntracker"
+	"github.com/werf/kubedog-for-werf-helm/pkg/trackers/dyntracker/logstore"
+	"github.com/werf/kubedog-for-werf-helm/pkg/trackers/dyntracker/statestore"
+	"github.com/werf/kubedog-for-werf-helm/pkg/trackers/dyntracker/util"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrcid"
 )
 
 var _ Operation = (*TrackResourceReadinessOperation)(nil)

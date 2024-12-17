@@ -6,17 +6,17 @@ import (
 	"github.com/werf/logboek"
 
 	"github.com/spf13/cobra"
-	"github.com/werf/nelm/pkg/action"
+	"github.com/werf/nelm-for-werf-helm/pkg/action"
 )
 
 func NewPlanDeployCommand() *cobra.Command {
 	var opts action.PlanOptions
 
-	cmd := &cobra.Command {
-		Use:     "deploy [release-name] [chart-dir]",
-		Short:   "Deploy a Helm chart plan",
-		Long:    "Deploy a Helm chart plan with the specified release name.",
-		Args:    cobra.MinimumNArgs(1),
+	cmd := &cobra.Command{
+		Use:   "deploy [release-name] [chart-dir]",
+		Short: "Deploy a Helm chart plan",
+		Long:  "Deploy a Helm chart plan with the specified release name.",
+		Args:  cobra.MinimumNArgs(1),
 		RunE: func(cmd *cobra.Command, args []string) error {
 			opts.ReleaseName = args[0]
 			if len(args) > 1 {

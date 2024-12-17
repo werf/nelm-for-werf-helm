@@ -9,10 +9,10 @@ import (
 	"github.com/samber/lo"
 	"github.com/sourcegraph/conc/pool"
 
-	"github.com/werf/nelm/pkg/log"
-	"github.com/werf/nelm/pkg/opertn"
-	"github.com/werf/nelm/pkg/pln"
-	"github.com/werf/nelm/pkg/utls"
+	"github.com/werf/nelm-for-werf-helm/pkg/log"
+	"github.com/werf/nelm-for-werf-helm/pkg/opertn"
+	"github.com/werf/nelm-for-werf-helm/pkg/pln"
+	"github.com/werf/nelm-for-werf-helm/pkg/utls"
 )
 
 func NewPlanExecutor(plan *pln.Plan, opts PlanExecutorOptions) *PlanExecutor {

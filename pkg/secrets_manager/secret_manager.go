@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/werf/logboek"
-	"github.com/werf/nelm/pkg/secret"
+	"github.com/werf/nelm-for-werf-helm/pkg/secret"
 )
 
 type SecretsManager struct {

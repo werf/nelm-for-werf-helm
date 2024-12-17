@@ -5,7 +5,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 
-	"github.com/werf/nelm/pkg/resrc"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrc"
 )
 
 var _ ResourcePatcher = (*ReleaseMetadataPatcher)(nil)

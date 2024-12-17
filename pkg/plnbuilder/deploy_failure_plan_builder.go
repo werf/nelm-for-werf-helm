@@ -9,16 +9,16 @@ import (
 	"k8s.io/apimachinery/pkg/api/meta"
 	"k8s.io/client-go/dynamic"
 
-	"github.com/werf/kubedog/pkg/trackers/dyntracker/statestore"
-	"github.com/werf/kubedog/pkg/trackers/dyntracker/util"
-	"github.com/werf/nelm/pkg/common"
-	"github.com/werf/nelm/pkg/kubeclnt"
-	"github.com/werf/nelm/pkg/opertn"
-	"github.com/werf/nelm/pkg/pln"
-	"github.com/werf/nelm/pkg/resrc"
-	"github.com/werf/nelm/pkg/resrcinfo"
-	"github.com/werf/nelm/pkg/rls"
-	"github.com/werf/nelm/pkg/rlshistor"
+	"github.com/werf/kubedog-for-werf-helm/pkg/trackers/dyntracker/statestore"
+	"github.com/werf/kubedog-for-werf-helm/pkg/trackers/dyntracker/util"
+	"github.com/werf/nelm-for-werf-helm/pkg/common"
+	"github.com/werf/nelm-for-werf-helm/pkg/kubeclnt"
+	"github.com/werf/nelm-for-werf-helm/pkg/opertn"
+	"github.com/werf/nelm-for-werf-helm/pkg/pln"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrc"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrcinfo"
+	"github.com/werf/nelm-for-werf-helm/pkg/rls"
+	"github.com/werf/nelm-for-werf-helm/pkg/rlshistor"
 )
 
 func NewDeployFailurePlanBuilder(

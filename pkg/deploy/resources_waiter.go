@@ -24,14 +24,14 @@ import (
 	"k8s.io/cli-runtime/pkg/resource"
 	"k8s.io/client-go/kubernetes/scheme"
 
-	helm_kube "github.com/werf/3p-helm/pkg/kube"
+	helm_kube "github.com/werf/3p-helm-for-werf-helm/pkg/kube"
 
-	"github.com/werf/kubedog/pkg/kube"
-	"github.com/werf/kubedog/pkg/tracker"
-	"github.com/werf/kubedog/pkg/tracker/resid"
-	"github.com/werf/kubedog/pkg/trackers/elimination"
-	"github.com/werf/kubedog/pkg/trackers/rollout/multitrack"
-	"github.com/werf/kubedog/pkg/trackers/rollout/multitrack/generic"
+	"github.com/werf/kubedog-for-werf-helm/pkg/kube"
+	"github.com/werf/kubedog-for-werf-helm/pkg/tracker"
+	"github.com/werf/kubedog-for-werf-helm/pkg/tracker/resid"
+	"github.com/werf/kubedog-for-werf-helm/pkg/trackers/elimination"
+	"github.com/werf/kubedog-for-werf-helm/pkg/trackers/rollout/multitrack"
+	"github.com/werf/kubedog-for-werf-helm/pkg/trackers/rollout/multitrack/generic"
 	"github.com/werf/logboek"
 )
 

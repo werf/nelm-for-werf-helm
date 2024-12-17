@@ -11,10 +11,10 @@ import (
 	"k8s.io/client-go/discovery"
 	"k8s.io/client-go/kubernetes/scheme"
 
-	"github.com/werf/nelm/pkg/depnd"
-	"github.com/werf/nelm/pkg/resrcid"
+	"github.com/werf/nelm-for-werf-helm/pkg/depnd"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrcid"
 
-	"github.com/werf/kubedog/pkg/trackers/rollout/multitrack"
+	"github.com/werf/kubedog-for-werf-helm/pkg/trackers/rollout/multitrack"
 )
 
 const TypeGeneralResource Type = "general-resource"

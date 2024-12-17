@@ -16,7 +16,7 @@ import (
 	"k8s.io/client-go/kubernetes/scheme"
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 
-	helm_v3 "github.com/werf/3p-helm/cmd/helm"
+	helm_v3 "github.com/werf/3p-helm-for-werf-helm/cmd/helm"
 )
 
 var addToScheme sync.Once

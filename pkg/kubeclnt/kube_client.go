@@ -17,10 +17,10 @@ import (
 	"k8s.io/client-go/dynamic"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/werf/nelm/pkg/common"
-	"github.com/werf/nelm/pkg/log"
-	"github.com/werf/nelm/pkg/resrc"
-	"github.com/werf/nelm/pkg/resrcid"
+	"github.com/werf/nelm-for-werf-helm/pkg/common"
+	"github.com/werf/nelm-for-werf-helm/pkg/log"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrc"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrcid"
 )
 
 var _ KubeClienter = (*KubeClient)(nil)

@@ -9,11 +9,11 @@ import (
 	"k8s.io/apimachinery/pkg/api/meta"
 	"k8s.io/client-go/discovery"
 
-	legacyRelease "github.com/werf/3p-helm/pkg/release"
-	"github.com/werf/3p-helm/pkg/releaseutil"
-	"github.com/werf/3p-helm/pkg/storage/driver"
+	legacyRelease "github.com/werf/3p-helm-for-werf-helm/pkg/release"
+	"github.com/werf/3p-helm-for-werf-helm/pkg/releaseutil"
+	"github.com/werf/3p-helm-for-werf-helm/pkg/storage/driver"
 
-	"github.com/werf/nelm/pkg/rls"
+	"github.com/werf/nelm-for-werf-helm/pkg/rls"
 )
 
 var _ Historier = (*History)(nil)

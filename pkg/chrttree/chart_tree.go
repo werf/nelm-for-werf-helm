@@ -10,19 +10,19 @@ import (
 	"k8s.io/apimachinery/pkg/api/meta"
 	"k8s.io/client-go/discovery"
 
-	helm_v3 "github.com/werf/3p-helm/cmd/helm"
-	"github.com/werf/3p-helm/pkg/action"
-	"github.com/werf/3p-helm/pkg/chart"
-	"github.com/werf/3p-helm/pkg/chart/loader"
-	"github.com/werf/3p-helm/pkg/chartutil"
-	"github.com/werf/3p-helm/pkg/cli/values"
-	"github.com/werf/3p-helm/pkg/getter"
-	"github.com/werf/3p-helm/pkg/releaseutil"
+	helm_v3 "github.com/werf/3p-helm-for-werf-helm/cmd/helm"
+	"github.com/werf/3p-helm-for-werf-helm/pkg/action"
+	"github.com/werf/3p-helm-for-werf-helm/pkg/chart"
+	"github.com/werf/3p-helm-for-werf-helm/pkg/chart/loader"
+	"github.com/werf/3p-helm-for-werf-helm/pkg/chartutil"
+	"github.com/werf/3p-helm-for-werf-helm/pkg/cli/values"
+	"github.com/werf/3p-helm-for-werf-helm/pkg/getter"
+	"github.com/werf/3p-helm-for-werf-helm/pkg/releaseutil"
 
-	"github.com/werf/nelm/pkg/common"
-	"github.com/werf/nelm/pkg/log"
-	"github.com/werf/nelm/pkg/resrc"
-	"github.com/werf/nelm/pkg/resrcid"
+	"github.com/werf/nelm-for-werf-helm/pkg/common"
+	"github.com/werf/nelm-for-werf-helm/pkg/log"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrc"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrcid"
 )
 
 func NewChartTree(ctx context.Context, chartPath, releaseName, releaseNamespace string, revision int, deployType common.DeployType, actionConfig *action.Configuration, opts ChartTreeOptions) (*ChartTree, error) {

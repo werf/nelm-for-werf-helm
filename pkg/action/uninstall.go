@@ -14,19 +14,19 @@ import (
 	api_errors "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	helm_v3 "github.com/werf/3p-helm/cmd/helm"
-	"github.com/werf/3p-helm/pkg/action"
-	helm_kube "github.com/werf/3p-helm/pkg/kube"
-	"github.com/werf/3p-helm/pkg/storage/driver"
-	"github.com/werf/nelm/pkg/opertn"
-	"github.com/werf/nelm/pkg/resrcid"
+	helm_v3 "github.com/werf/3p-helm-for-werf-helm/cmd/helm"
+	"github.com/werf/3p-helm-for-werf-helm/pkg/action"
+	helm_kube "github.com/werf/3p-helm-for-werf-helm/pkg/kube"
+	"github.com/werf/3p-helm-for-werf-helm/pkg/storage/driver"
+	"github.com/werf/nelm-for-werf-helm/pkg/opertn"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrcid"
 
-	"github.com/werf/kubedog/pkg/kube"
+	"github.com/werf/kubedog-for-werf-helm/pkg/kube"
 	"github.com/werf/logboek"
-	"github.com/werf/nelm/pkg/deploy"
-	"github.com/werf/nelm/pkg/kubeclnt"
-	"github.com/werf/nelm/pkg/lock_manager"
-	"github.com/werf/nelm/pkg/log"
+	"github.com/werf/nelm-for-werf-helm/pkg/deploy"
+	"github.com/werf/nelm-for-werf-helm/pkg/kubeclnt"
+	"github.com/werf/nelm-for-werf-helm/pkg/lock_manager"
+	"github.com/werf/nelm-for-werf-helm/pkg/log"
 )
 
 type UninstallOptions struct {

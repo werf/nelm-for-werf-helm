@@ -13,9 +13,9 @@ import (
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/werf/kubedog/pkg/trackers/dyntracker/logstore"
-	"github.com/werf/kubedog/pkg/trackers/dyntracker/statestore"
-	kdutil "github.com/werf/kubedog/pkg/trackers/dyntracker/util"
+	"github.com/werf/kubedog-for-werf-helm/pkg/trackers/dyntracker/logstore"
+	"github.com/werf/kubedog-for-werf-helm/pkg/trackers/dyntracker/statestore"
+	kdutil "github.com/werf/kubedog-for-werf-helm/pkg/trackers/dyntracker/util"
 )
 
 type TablesBuilder struct {

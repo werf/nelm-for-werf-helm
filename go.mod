@@ -1,4 +1,4 @@
-module github.com/werf/nelm
+module github.com/werf/nelm-for-werf-helm
 
 go 1.21.1
 
@@ -20,10 +20,11 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/samber/lo v1.39.0
 	github.com/sourcegraph/conc v0.3.0
+	github.com/spf13/cobra v1.8.0
 	github.com/tidwall/sjson v1.2.5
 	github.com/wI2L/jsondiff v0.5.0
-	github.com/werf/3p-helm v0.0.0-20241205082853-108ebc6258fe
-	github.com/werf/kubedog v0.12.4-0.20241206094259-0fc2d1a1aff7
+	github.com/werf/3p-helm-for-werf-helm v0.0.0-20241217155820-089f92cd5c9d
+	github.com/werf/kubedog-for-werf-helm v0.0.0-20241217155728-9d45c48b82b6
 	github.com/werf/lockgate v0.1.1
 	github.com/werf/logboek v0.6.1
 	github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e
@@ -138,7 +139,6 @@ require (
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/spf13/cast v1.6.0 // indirect
-	github.com/spf13/cobra v1.8.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/tidwall/gjson v1.17.0 // indirect
 	github.com/tidwall/match v1.1.1 // indirect

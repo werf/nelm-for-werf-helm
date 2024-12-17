@@ -6,10 +6,10 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"github.com/werf/3p-helm/pkg/release"
-	"github.com/werf/3p-helm/pkg/time"
+	"github.com/werf/3p-helm-for-werf-helm/pkg/release"
+	"github.com/werf/3p-helm-for-werf-helm/pkg/time"
 
-	"github.com/werf/nelm/pkg/resrc"
+	"github.com/werf/nelm-for-werf-helm/pkg/resrc"
 )
 
 func NewLegacyReleaseFromRelease(rel *Release) (*release.Release, error) {
